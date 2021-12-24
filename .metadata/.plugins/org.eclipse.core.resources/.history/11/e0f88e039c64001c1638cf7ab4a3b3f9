@@ -1,0 +1,21 @@
+package Com.data.input;
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+	int a=34 ,b=45 ,c=65;
+	System.out.println(a+b);
+	System.out.println(a-b);
+	System.out.println(a*b);
+	System.out.println(a/b);
+	System.out.println(a%b);
+	
+	
+	System.out.println(a>b && b>c);
+	System.out.println(a>b || b>c);
+	System.out.println(a!=b);
+	
+	System.out.println(a==b);
+	}
+
+}
